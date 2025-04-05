@@ -2,9 +2,14 @@ FROM python:3.9-slim
 
 WORKDIR /app
 
-COPY requirements.txt .
-RUN pip install --upgrade pip && pip install -r requirements.txt
-
+# Copia los archivos del proyecto
 COPY . .
 
-CMD ["python", "inference.py"]
+# Instala las dependencias
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Expone el puerto 5000
+EXPOSE 5000
+
+# Comando de inicio: ejecuta el servidor
+CMD ["python", "server.py"]

@@ -3,3 +3,6 @@ pymgrid
 matplotlib
 numpy
 stable-baselines3
+Flask==1.1.4
+Werkzeug==0.16.1
+MarkupSafe==2.0.1
