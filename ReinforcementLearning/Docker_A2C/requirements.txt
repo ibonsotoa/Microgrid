@@ -1,0 +1,7 @@
+gymnasium
+pymgrid
+matplotlib
+numpy
+stable-baselines3
+pandas
+pytest
