@@ -2,29 +2,8 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>README - Sistema de Gestión de Microred</title>
+  <!-- Carga de fuente: puedes cambiar a la fuente que prefieras -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-  <style>
-    body {
-      font-family: 'Roboto', sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 20px;
-      background-color: #f9f9f9;
-    }
-    h1, h2, h3, h4 {
-      color: #333;
-    }
-    pre, code {
-      font-family: Consolas, monospace;
-      background-color: #eee;
-      padding: 5px;
-      border-radius: 3px;
-    }
-    a {
-      color: #0366d6;
-    }
-  </style>
 </head>
 <body>
 
@@ -133,14 +112,3 @@ El proyecto también contempla la validación de requisitos y especificaciones d
 - **Ibon Soto**
 
 Máster en Inteligencia Artificial Aplicada
-
-## Licencia
-
-[Indicar la licencia del proyecto si aplica]
-
-## Contacto
-
-[Información de contacto o links a perfiles profesionales]
-
-</body>
-</html>
